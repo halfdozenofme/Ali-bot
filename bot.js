@@ -1,5 +1,5 @@
 var Telegraf = require('telegraf');
-const TOKEN = '664045614:AAEFU0lkCBn2UMom3SnCOdY2VNmDSEIR-VA';
+
 
 //Create new bot
 var bot = new Telegraf(TOKEN);
