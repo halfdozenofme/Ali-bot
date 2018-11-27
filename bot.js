@@ -2,7 +2,7 @@ const Telegraf = require('telegraf');
 const express = require('express');
 const expressApp = express();
 const API_TOKEN = process.env.API_TOKEN || '664045614:AAEFU0lkCBn2UMom3SnCOdY2VNmDSEIR-VA';
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 4000;
 const URL = process.env.URL || 'https://ali-super-bot.herokuapp.com/';
 const bot = new Telegraf(API_TOKEN);
 bot.telegram.setWebhook(`${URL}/bot${API_TOKEN}`);
