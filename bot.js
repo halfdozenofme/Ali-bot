@@ -5,8 +5,8 @@ const API_TOKEN = process.env.API_TOKEN || '664045614:AAEFU0lkCBn2UMom3SnCOdY2VN
 const PORT = process.env.PORT || 80;
 const URL = process.env.URL || 'https://ali-super-bot.herokuapp.com/';
 const bot = new Telegraf(API_TOKEN);
-bot.telegram.setWebhook(`${URL}/bot$664045614:AAEFU0lkCBn2UMom3SnCOdY2VNmDSEIR-VA`);
-expressApp.use(bot.webhookCallback(`/bot$664045614:AAEFU0lkCBn2UMom3SnCOdY2VNmDSEIR-VA`));
+bot.telegram.setWebhook(`${URL}/bot${664045614:AAEFU0lkCBn2UMom3SnCOdY2VNmDSEIR-VA}`);
+expressApp.use(bot.webhookCallback(`/bot${664045614:AAEFU0lkCBn2UMom3SnCOdY2VNmDSEIR-VA}`));
 //Create new bot
 bot.start((ctx) => ctx.reply('Hello, friends!Here I am!\nPress /go to talk to God\nPress /location to know the location\nPress /place if you need the map\nPress /video and watch the cool video from me\nWanna see me? So send this message"Show me our Queen"\nAsk me to send a sticker by sending this message"Send me a sticker, babe"\nYou can also send a sticker to me\nAnd have a nice day,guys! Forever yours, your Queen, your Dream, Ali telegram bot:*'));
 bot.command('go', function(context){
