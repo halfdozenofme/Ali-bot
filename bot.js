@@ -1,6 +1,6 @@
 var http = require("http");
 setInterval(function() {
-    http.get("http://<your app name>.herokuapp.com");
+    http.get("http://ali-super-bot.herokuapp.com");
 }, 60000); 
 var Telegraf = require('telegraf');
 const TOKEN = '664045614:AAEFU0lkCBn2UMom3SnCOdY2VNmDSEIR-VA';
