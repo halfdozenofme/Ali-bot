@@ -1,8 +1,8 @@
-var express=require('express');
-var app=express();
+var express = require('express');
+var app = express();
 
 //set port
-var port=process.env.PORT||5000;
+var port = process.env.PORT || 5000;
 
 app.use(express.static(__dirname));
 
